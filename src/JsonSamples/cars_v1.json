@@ -1,0 +1,18 @@
+[
+  {
+    "PlateNumber": "NXS-489",
+    "Owner": {
+      "FirstName": "Richárd",
+      "LastName": "Gyikó"
+    },
+    "Version": 1.0
+  },
+  {
+    "PlateNumber": "HGI-435",
+    "Owner": {
+      "FirstName": "Péter",
+      "LastName": "Molnár"
+    },
+    "Version": 1.0
+  }
+]

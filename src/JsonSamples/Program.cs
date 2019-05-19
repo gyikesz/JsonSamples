@@ -1,6 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.IO;
 
 namespace JsonSamples
 {
@@ -39,5 +40,18 @@ namespace JsonSamples
 
             Console.ReadLine();
         }
+
+
+        //{
+        //    List<Car> carsV1 = null;
+
+        //    using (var stream = File.OpenRead("Path"))
+        //    using (var streamReader = new StreamReader(stream))
+        //    {
+        //        var carsV1Json = streamReader.ReadToEnd();
+
+        //        carsV1 = JsonConvert.DeserializeObject<List<Car>>(carsV1Json);
+        //    }
+        //}
     }
 }
